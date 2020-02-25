@@ -1,0 +1,1552 @@
+@charset "utf-8";
+/* header */
+.yilb{
+    height:30px;
+    background:#333;
+}
+.yilb .yi{
+    width: 920px;
+    height:100%;
+    margin: 0 auto;
+}
+.yilb .yi ul:nth-of-type(1){
+    float:left;
+    width:700px;
+    height:30px;
+    line-height: 30px;
+}
+.yilb .yi ul:nth-of-type(1) li{
+    float:left;
+    font-size:10px;
+}
+.yilb .yi ul:nth-of-type(1) li a{
+    height:14px;
+    border-right:1px solid #38423b;
+    padding:0 6px;
+    color:#b0b0b0;
+}
+.yilb .yi ul:nth-of-type(1) li:nth-of-type(1) a{
+    padding-left:0;
+}
+.yilb .yi ul:nth-of-type(1) li:nth-of-type(12) a{
+    border-right:none;
+}
+.yilb .yi ul:nth-of-type(2){
+    float:right;
+    width:164px;
+    height:30px;
+    line-height: 30px;
+}
+.yilb .yi ul:nth-of-type(2) li{
+    float:left;
+    font-size:11px;
+}
+.yilb .yi ul:nth-of-type(2) li a{
+    height:14px;
+    border-right:1px solid #38423b;
+    padding:0 7px;
+    color:#b0b0b0;
+}
+.yilb .yi ul:nth-of-type(2) li:nth-of-type(2) a{
+    border-right:none;
+}
+.yilb .yi ul:nth-of-type(2) li:nth-of-type(3) a{
+    border-right:none;
+    height:30px;
+    width:66px;
+    float:left;
+    padding-left:13px;
+    line-height:30px;
+    text-align: center;
+    background:#424242 url(../images/xiaomi1.png) no-repeat 0 center;
+}
+/* nav */
+nav{
+    height:75px;
+    background:#fff;
+}
+nav section{
+    height: 100%;
+    width:920px;
+    margin:0 auto;
+    overflow: hidden;
+}
+nav section aside:nth-of-type(1){
+    height:41px;
+    width:41px;
+    background:#ff6700 url(../images/xiaomi2.png) no-repeat center;
+    margin-top:17px;
+    float: left;
+}
+nav section aside:nth-of-type(1):hover{
+    background:#ff6700 url(../images/xiaomi3.png) no-repeat center;
+}
+nav section ul{
+    width:450px;
+    height:75px;
+    line-height:75px;
+    float:left;
+    margin-left:138px;
+}
+nav section ul li{
+    float: left;
+}
+nav section ul li a{
+    color:#333;
+    padding:0 7px;
+    font-size: 11px;
+}
+nav section ul li:nth-of-type(1) a{
+    padding-left:0;
+}
+nav section ul li:nth-of-type(9) a{
+    padding-right:0;
+}
+nav section form{
+    width:222px;
+    float:left;
+    height:35px;
+    line-height:75px;
+    margin-left:64px;
+    padding-top:20px;
+}
+nav section form input:nth-of-type(1){
+    border:1px solid #e0e0e0;
+    height:35px;
+    width:182px;
+    float:left;
+    outline: none;
+}
+nav section form input:nth-of-type(2){
+    width:37px;
+    border:1px solid #e0e0e0;
+    border-left:none;
+    height:37px;
+    float:left;
+    outline: none;
+    cursor: pointer;
+    background:#fff url(../images/xiaomi4.png) no-repeat center;
+}
+nav section form input:nth-of-type(1)::-webkit-input-placeholder{
+    font-size:11px;
+    text-align: center;
+    text-indent: 70px;
+}
+/* home-hero */
+.home-hero{
+    height:346px;
+    background: #fff;
+}
+.home-hero aside{
+    height:100%;
+    width:920px;
+    margin:0 auto;
+    background:skyblue;
+}
+.home-hero aside ul{
+    height:100%;
+    float:left;
+    width:175px;
+    background:#3f3c40;
+}
+.home-hero aside ul li a{
+    display: block;
+    height:22px;
+    width:135px;
+    padding:0 16px 0 24px;
+    color:#fff;
+    font-size:11px;
+    margin:9px 0 9px;
+}
+.home-hero aside ul li:nth-of-type(1) a{
+    margin-top:25px;
+}
+.home-hero aside ul li a p:nth-of-type(1){
+    float: left;
+}
+.home-hero aside ul li a p:nth-of-type(2){
+    float: right;
+}
+.home-hero aside img{
+    width:745px;
+    height:100%;
+}
+/* home-hero-sub */
+.home-hero-sub{
+    height:127px;
+    margin-top:12px;
+    background:#fff;
+}
+.home-hero-sub aside{
+    height:100%;
+    width:920px;
+    margin:0 auto;
+}
+.home-hero-sub aside article:nth-of-type(1){
+    width:176px;
+    height:100%;
+    background: #5f5750;
+    float: left;
+}
+.home-hero-sub aside article:nth-of-type(2){
+    float: left;
+    width:237px;
+    height:100%;
+    margin-left:10px;
+    background:url(../images/xiaomi6.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.home-hero-sub aside article:nth-of-type(3){
+    float: left;
+    width:237px;
+    height:100%;
+    margin-left:10px;
+    background:url(../images/xiaomi7.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.home-hero-sub aside article:nth-of-type(4){
+    float: left;
+    width:237px;
+    height:100%;
+    margin-left:10px;
+    background:url(../images/xiaomi8.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.home-hero-sub aside article:nth-of-type(1) ul{
+    overflow: hidden;
+}
+.home-hero-sub aside article:nth-of-type(1) ul li{
+    float: left;
+    margin:16px 0 8px 8px;
+}
+.home-hero-sub aside article:nth-of-type(1) ul li a{
+    display: block;
+    height:36px;
+    width:48px;
+    font-size:11px;
+    color:#c6c3c1;
+    text-align: center;
+    overflow: hidden;
+}
+.home-hero-sub aside article:nth-of-type(1) ul li a p{
+    margin-top:2px;
+}
+.home-hero-sub aside article:nth-of-type(1) ul li a img{
+    height:18px;
+    width:18px;
+}
+/* body */
+.body{
+    height:4228px;
+    background:#f5f5f5;
+    margin-top:20px;
+    overflow: hidden;
+}
+/* bodyheader */
+.body .bodyheader{
+    width:920px;
+    height:90px;
+    margin:19px auto 0;
+    background: #e7e9ed url(../images/xiaomi15.png) no-repeat center;
+    background-size: 100% 100%;
+}
+/* bodyphone */
+.body .bodyphone{
+    height:495px;
+    width:920px;
+    margin:28px auto 0;
+    overflow: hidden;
+}
+.body .bodyphone p:nth-of-type(1){
+    width:100%;
+    height:18px;
+    font-size:16px;
+    color:#333;
+}
+.body .bodyphone p:nth-of-type(1) span{
+    float: left;
+    height:18px;
+}
+.body .bodyphone p:nth-of-type(1) a{
+    float: right;
+    width:72px;
+    height:100%;
+    color:#424242;
+    font-size:11px;
+    line-height:20px;
+    background: url(../images/xiaomi16.png) no-repeat right center;
+}
+.body .bodyphone aside:nth-of-type(1){
+    height:462px;
+    width:176px;
+    background: url(../images/xiaomi17.png) no-repeat center;
+    background-size:100% 100%;
+    float: left;
+    margin:0;
+    margin-top:14px;
+}
+.body .bodyphone aside:nth-of-type(2){
+    height:462px;
+    width:734px;
+    margin:14px 0 0 10px;
+    float: left;
+}
+.body .bodyphone aside:nth-of-type(2) dl{
+    width:176px;
+    height:225px;
+    float: left;
+    background:#fff;
+    margin-right:10px;
+    margin-bottom:10px;
+    overflow: hidden;
+}
+.body .bodyphone aside:nth-of-type(2) dl:nth-of-type(4){
+    margin-right:0;
+}
+.body .bodyphone aside:nth-of-type(2) dl:nth-of-type(5){
+    margin-bottom:0;
+}
+.body .bodyphone aside:nth-of-type(2) dl:nth-of-type(6){
+    margin-bottom:0;
+}
+.body .bodyphone aside:nth-of-type(2) dl:nth-of-type(7){
+    margin-bottom:0;
+}
+.body .bodyphone aside:nth-of-type(2) dl:nth-of-type(8){
+    margin-bottom:0;
+    margin-right:0;
+}
+.body .bodyphone aside:nth-of-type(2) dl a dt{
+    height:142px;
+    width:100%;
+    text-align: center;
+    line-height: 142px;
+}
+.body .bodyphone aside:nth-of-type(2) dl a dt img{
+    width:120px;
+    height:120px;
+}
+.body .bodyphone aside:nth-of-type(2) dl a dd:nth-of-type(1){
+    font-size:11px;
+    color:#333;
+    font-weight:520;
+    text-align: center;
+}
+.body .bodyphone aside:nth-of-type(2) dl a dd:nth-of-type(2){
+    font-size:11px;
+    color:#b0b0b0;
+    font-weight:520;
+    text-align: center;
+    margin-top:8px;
+}
+.body .bodyphone aside:nth-of-type(2) dl a dd:nth-of-type(3){
+    font-size:11px;
+    color:#b0b0b0;
+    text-align: center;
+    margin-top:10px;
+}
+.body .bodyphone aside:nth-of-type(2) dl a dd:nth-of-type(3) span:nth-of-type(1){
+    color:#ff6700;
+    text-decoration:none;
+}
+.body .bodyphone aside:nth-of-type(2) dl a dd:nth-of-type(3) span:nth-of-type(2){
+    text-decoration:line-through;
+}
+/* bodyTVheader */
+.body .bodyTVheader{
+    width:920px;
+    height:90px;
+    margin:19px auto 0;
+    background: #e7e9ed url(../images/xiaomi26.png) no-repeat center;
+    background-size: 100% 100%;
+}
+/* bodyTV */
+.body .bodyTV{
+    height:495px;
+    width:920px;
+    margin:28px auto 0;
+    overflow: hidden;
+}
+.body .bodyTV div:nth-of-type(1){
+    width:100%;
+    height:18px;
+    font-size:16px;
+    color:#333;
+}
+.body .bodyTV div:nth-of-type(1) span{
+    float: left;
+    height:18px;
+}
+.body .bodyTV div:nth-of-type(1) p{
+    float: right;
+    width:96px;
+    height:100%;
+    color:#424242;
+    font-size:11px;
+    line-height:20px;
+}
+.body .bodyTV div:nth-of-type(1) p a{
+    display: block;
+    float: left;
+}
+.body .bodyTV div:nth-of-type(1) p a:first-child{
+    border-bottom:2px solid #ff6700;
+}
+.body .bodyTV div:nth-of-type(1) p a:last-child{
+    float: right;
+}
+.body .bodyTV aside:nth-of-type(1){
+    height:462px;
+    width:176px;
+    background:#f5f5f5;
+    background-size:100% 100%;
+    float: left;
+    margin:0;
+    margin-top:14px;
+}
+.body .bodyTV aside:nth-of-type(1) img{
+    height:225px;
+    width:176px;
+}
+.body .bodyTV aside:nth-of-type(1) img:nth-of-type(1){
+    margin-bottom: 10px;
+}
+.body .bodyTV aside:nth-of-type(2){
+    height:462px;
+    width:734px;
+    margin:14px 0 0 10px;
+    float: left;
+}
+.body .bodyTV aside:nth-of-type(2) dl{
+    width:176px;
+    height:225px;
+    float: left;
+    background:#fff;
+    margin-right:10px;
+    margin-bottom:10px;
+    overflow: hidden;
+}
+.body .bodyTV aside:nth-of-type(2) dl:nth-of-type(4){
+    margin-right:0;
+}
+.body .bodyTV aside:nth-of-type(2) dl:nth-of-type(5){
+    margin-bottom:0;
+}
+.body .bodyTV aside:nth-of-type(2) dl:nth-of-type(6){
+    margin-bottom:0;
+}
+.body .bodyTV aside:nth-of-type(2) dl:nth-of-type(7){
+    margin-bottom:0;
+}
+.body .bodyTV aside:nth-of-type(2) dl:nth-of-type(8){
+    margin-bottom:0;
+    margin-right:0;
+}
+.body .bodyTV aside:nth-of-type(2) dl a dt{
+    height:142px;
+    width:100%;
+    text-align: center;
+    line-height: 142px;
+}
+.body .bodyTV aside:nth-of-type(2) dl a dt img{
+    width:120px;
+    height:120px;
+}
+.body .bodyTV aside:nth-of-type(2) dl a dd:nth-of-type(1){
+    font-size:11px;
+    color:#333;
+    font-weight:520;
+    text-align: center;
+}
+.body .bodyTV aside:nth-of-type(2) dl a dd:nth-of-type(2){
+    font-size:11px;
+    color:#b0b0b0;
+    font-weight:520;
+    text-align: center;
+    margin-top:8px;
+}
+.body .bodyTV aside:nth-of-type(2) dl a dd:nth-of-type(3){
+    font-size:11px;
+    color:#b0b0b0;
+    text-align: center;
+    margin-top:10px;
+}
+.body .bodyTV aside:nth-of-type(2) dl a dd:nth-of-type(3) span:nth-of-type(1){
+    color:#ff6700;
+    text-decoration:none;
+}
+.body .bodyTV aside:nth-of-type(2) dl a dd:nth-of-type(3) span:nth-of-type(2){
+    text-decoration:line-through;
+}
+.body .bodyTV aside:nth-of-type(2) .Air{
+    width:176px;
+    height:225px;
+    float: left;
+    background:#f5f5f5;
+    overflow: hidden;
+}
+.body .bodyTV aside:nth-of-type(2) .Air aside{
+    height:107px;
+    width:100%;
+    background:#fff;
+    margin:0;
+}
+.body .bodyTV aside:nth-of-type(2) .Air aside:first-child{
+    margin-bottom: 10px;
+}
+.body .bodyTV aside:nth-of-type(2) .Air aside:first-child div{
+    float: left;
+    width:80px;
+    height:77px;
+    padding-top:30px;
+}
+.body .bodyTV aside:nth-of-type(2) .Air aside:first-child img{
+    float:right;
+    width:60px;
+    height:50px;
+    margin-top:30px;
+    margin-right:15px;
+}
+.body .bodyTV aside:nth-of-type(2) .Air aside:first-child div p{
+    height:11px;
+    width:52px;
+    font-size: 11px;
+    color:#333;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.body .bodyTV aside:nth-of-type(2) .Air aside:first-child div p:last-child{
+    color:#ff6700;
+}
+.body .bodyTV aside:nth-of-type(2) .Air aside:last-child div{
+    float: left;
+    width:80px;
+    height:77px;
+    padding-top:30px;
+}
+.body .bodyTV aside:nth-of-type(2) .Air aside:last-child img{
+    float:right;
+    width:38px;
+    height:38px;
+    margin-top:30px;
+    margin-right:25px;
+}
+.body .bodyTV aside:nth-of-type(2) .Air aside:last-child div p{
+    height:11px;
+    width:52px;
+    font-size: 11px;
+    color:#333;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.body .bodyTV aside:nth-of-type(2) .Air aside:last-child div p:last-child{
+    color:#757575;
+}
+/* bodyAIheader */
+.body .bodyAIheader{
+    width:920px;
+    height:90px;
+    margin:19px auto 0;
+    background: #e7e9ed url(../images/xiaomi38.png) no-repeat center;
+    background-size: 100% 100%;
+}
+/* bodyAI */
+.body .bodyAI{
+    height:495px;
+    width:920px;
+    margin:28px auto 0;
+    overflow: hidden;
+}
+.body .bodyAI div:nth-of-type(1){
+    width:100%;
+    height:18px;
+    font-size:16px;
+    color:#333;
+}
+.body .bodyAI div:nth-of-type(1) span{
+    float: left;
+    height:18px;
+}
+.body .bodyAI div:nth-of-type(1) p{
+    float: right;
+    width:96px;
+    height:100%;
+    color:#424242;
+    font-size:11px;
+    line-height:20px;
+}
+.body .bodyAI div:nth-of-type(1) p a{
+    display: block;
+    float: left;
+}
+.body .bodyAI div:nth-of-type(1) p a:first-child{
+    border-bottom:2px solid #ff6700;
+}
+.body .bodyAI div:nth-of-type(1) p a:last-child{
+    float: right;
+}
+.body .bodyAI aside:nth-of-type(1){
+    height:462px;
+    width:176px;
+    background:#f5f5f5;
+    background-size:100% 100%;
+    float: left;
+    margin:0;
+    margin-top:14px;
+}
+.body .bodyAI aside:nth-of-type(1) img{
+    height:225px;
+    width:176px;
+}
+.body .bodyAI aside:nth-of-type(1) img:nth-of-type(1){
+    margin-bottom: 10px;
+}
+.body .bodyAI aside:nth-of-type(2){
+    height:462px;
+    width:734px;
+    margin:14px 0 0 10px;
+    float: left;
+}
+.body .bodyAI aside:nth-of-type(2) dl{
+    width:176px;
+    height:225px;
+    float: left;
+    background:#fff;
+    margin-right:10px;
+    margin-bottom:10px;
+    overflow: hidden;
+}
+.body .bodyAI aside:nth-of-type(2) dl:nth-of-type(4){
+    margin-right:0;
+}
+.body .bodyAI aside:nth-of-type(2) dl:nth-of-type(5){
+    margin-bottom:0;
+}
+.body .bodyAI aside:nth-of-type(2) dl:nth-of-type(6){
+    margin-bottom:0;
+}
+.body .bodyAI aside:nth-of-type(2) dl:nth-of-type(7){
+    margin-bottom:0;
+}
+.body .bodyAI aside:nth-of-type(2) dl:nth-of-type(8){
+    margin-bottom:0;
+    margin-right:0;
+}
+.body .bodyAI aside:nth-of-type(2) dl a dt{
+    height:142px;
+    width:100%;
+    text-align: center;
+    line-height: 142px;
+}
+.body .bodyAI aside:nth-of-type(2) dl a dt img{
+    width:120px;
+    height:120px;
+}
+.body .bodyAI aside:nth-of-type(2) dl a dd:nth-of-type(1){
+    font-size:11px;
+    color:#333;
+    font-weight:520;
+    text-align: center;
+}
+.body .bodyAI aside:nth-of-type(2) dl a dd:nth-of-type(2){
+    font-size:11px;
+    color:#b0b0b0;
+    font-weight:520;
+    text-align: center;
+    margin-top:8px;
+}
+.body .bodyAI aside:nth-of-type(2) dl a dd:nth-of-type(3){
+    font-size:11px;
+    color:#b0b0b0;
+    text-align: center;
+    margin-top:10px;
+}
+.body .bodyAI aside:nth-of-type(2) dl a dd:nth-of-type(3) span:nth-of-type(1){
+    color:#ff6700;
+    text-decoration:none;
+}
+.body .bodyAI aside:nth-of-type(2) dl a dd:nth-of-type(3) span:nth-of-type(2){
+    text-decoration:line-through;
+}
+.body .bodyAI aside:nth-of-type(2) .Air{
+    width:176px;
+    height:225px;
+    float: left;
+    background:#f5f5f5;
+    overflow: hidden;
+}
+.body .bodyAI aside:nth-of-type(2) .Air aside{
+    height:107px;
+    width:100%;
+    background:#fff;
+    margin:0;
+}
+.body .bodyAI aside:nth-of-type(2) .Air aside:first-child{
+    margin-bottom: 10px;
+}
+.body .bodyAI aside:nth-of-type(2) .Air aside:first-child div{
+    float: left;
+    width:80px;
+    height:77px;
+    padding-top:30px;
+}
+.body .bodyAI aside:nth-of-type(2) .Air aside:first-child img{
+    float:right;
+    width:60px;
+    height:50px;
+    margin-top:30px;
+    margin-right:15px;
+}
+.body .bodyAI aside:nth-of-type(2) .Air aside:first-child div p{
+    height:11px;
+    width:60px;
+    font-size: 11px;
+    color:#333;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.body .bodyAI aside:nth-of-type(2) .Air aside:first-child div p:last-child{
+    color:#ff6700;
+}
+.body .bodyAI aside:nth-of-type(2) .Air aside:last-child div{
+    float: left;
+    width:80px;
+    height:77px;
+    padding-top:30px;
+}
+.body .bodyAI aside:nth-of-type(2) .Air aside:last-child img{
+    float:right;
+    width:38px;
+    height:38px;
+    margin-top:30px;
+    margin-right:25px;
+}
+.body .bodyAI aside:nth-of-type(2) .Air aside:last-child div p{
+    height:11px;
+    width:52px;
+    font-size: 11px;
+    color:#333;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.body .bodyAI aside:nth-of-type(2) .Air aside:last-child div p:last-child{
+    color:#757575;
+}
+/* bodyAirheader */
+.body .bodyAirheader{ 
+    width:920px;
+    height:90px;
+    margin:19px auto 0;
+    background: #e7e9ed url(../images/xiaomi49.png) no-repeat center;
+    background-size: 100% 100%;
+}
+/* bodyAir */
+.body .bodyAir{
+    height:495px;
+    width:920px;
+    margin:28px auto 0;
+    overflow: hidden;
+}
+.body .bodyAir div:nth-of-type(1){
+    width:100%;
+    height:18px;
+    font-size:16px;
+    color:#333;
+}
+.body .bodyAir div:nth-of-type(1) span{
+    float: left;
+    height:18px;
+}
+.body .bodyAir div:nth-of-type(1) p{
+    float: right;
+    width:96px;
+    height:100%;
+    color:#424242;
+    font-size:11px;
+    line-height:20px;
+}
+.body .bodyAir div:nth-of-type(1) p a{
+    display: block;
+    float: left;
+}
+.body .bodyAir div:nth-of-type(1) p a:first-child{
+    border-bottom:2px solid #ff6700;
+}
+.body .bodyAir div:nth-of-type(1) p a:last-child{
+    float: right;
+}
+.body .bodyAir aside:nth-of-type(1){
+    height:462px;
+    width:176px;
+    background:#f5f5f5;
+    background-size:100% 100%;
+    float: left;
+    margin:0;
+    margin-top:14px;
+}
+.body .bodyAir aside:nth-of-type(1) img{
+    height:225px;
+    width:176px;
+}
+.body .bodyAir aside:nth-of-type(1) img:nth-of-type(1){
+    margin-bottom: 10px;
+}
+.body .bodyAir aside:nth-of-type(2){
+    height:462px;
+    width:734px;
+    margin:14px 0 0 10px;
+    float: left;
+}
+.body .bodyAir aside:nth-of-type(2) dl{
+    width:176px;
+    height:225px;
+    float: left;
+    background:#fff;
+    margin-right:10px;
+    margin-bottom:10px;
+    overflow: hidden;
+}
+.body .bodyAir aside:nth-of-type(2) dl:nth-of-type(4){
+    margin-right:0;
+}
+.body .bodyAir aside:nth-of-type(2) dl:nth-of-type(5){
+    margin-bottom:0;
+}
+.body .bodyAir aside:nth-of-type(2) dl:nth-of-type(6){
+    margin-bottom:0;
+}
+.body .bodyAir aside:nth-of-type(2) dl:nth-of-type(7){
+    margin-bottom:0;
+}
+.body .bodyAir aside:nth-of-type(2) dl:nth-of-type(8){
+    margin-bottom:0;
+    margin-right:0;
+}
+.body .bodyAir aside:nth-of-type(2) dl a dt{
+    height:142px;
+    width:100%;
+    text-align: center;
+    line-height: 142px;
+}
+.body .bodyAir aside:nth-of-type(2) dl a dt img{
+    width:120px;
+    height:120px;
+}
+.body .bodyAir aside:nth-of-type(2) dl a dd:nth-of-type(1){
+    font-size:11px;
+    color:#333;
+    font-weight:520;
+    text-align: center;
+}
+.body .bodyAir aside:nth-of-type(2) dl a dd:nth-of-type(2){
+    font-size:11px;
+    color:#b0b0b0;
+    font-weight:520;
+    text-align: center;
+    margin-top:8px;
+}
+.body .bodyAir aside:nth-of-type(2) dl a dd:nth-of-type(3){
+    font-size:11px;
+    color:#b0b0b0;
+    text-align: center;
+    margin-top:10px;
+}
+.body .bodyAir aside:nth-of-type(2) dl a dd:nth-of-type(3) span:nth-of-type(1){
+    color:#ff6700;
+    text-decoration:none;
+}
+.body .bodyAir aside:nth-of-type(2) dl a dd:nth-of-type(3) span:nth-of-type(2){
+    text-decoration:line-through;
+}
+.body .bodyAir aside:nth-of-type(2) .Airr{
+    width:176px;
+    height:225px;
+    float: left;
+    background:#f5f5f5;
+    overflow: hidden;
+}
+.body .bodyAir aside:nth-of-type(2) .Airr aside{
+    height:107px;
+    width:100%;
+    background:#fff;
+    margin:0;
+}
+.body .bodyAir aside:nth-of-type(2) .Airr aside:first-child{
+    margin-bottom: 10px;
+}
+.body .bodyAir aside:nth-of-type(2) .Airr aside:first-child div{
+    float: left;
+    width:80px;
+    height:77px;
+    padding-top:30px;
+}
+.body .bodyAir aside:nth-of-type(2) .Airr aside:first-child img{
+    float:right;
+    width:60px;
+    height:50px;
+    margin-top:30px;
+    margin-right:15px;
+}
+.body .bodyAir aside:nth-of-type(2) .Airr aside:first-child div p{
+    height:11px;
+    width:60px;
+    font-size: 11px;
+    color:#333;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.body .bodyAir aside:nth-of-type(2) .Airr aside:first-child div p:last-child{
+    color:#ff6700;
+    margin-top:15px;
+}
+.body .bodyAir aside:nth-of-type(2) .Airr aside:last-child div{
+    float: left;
+    width:80px;
+    height:77px;
+    padding-top:30px;
+}
+.body .bodyAir aside:nth-of-type(2) .Airr aside:last-child img{
+    float:right;
+    width:38px;
+    height:38px;
+    margin-top:30px;
+    margin-right:25px;
+}
+.body .bodyAir aside:nth-of-type(2) .Airr aside:last-child div p{
+    height:11px;
+    width:52px;
+    font-size: 11px;
+    color:#333;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.body .bodyAir aside:nth-of-type(2) .Airr aside:last-child div p:last-child{
+    color:#757575;
+}
+/* bodyphoneshellheader */
+.bodyphoneshellheader{
+    width:920px;
+    height:90px;
+    margin:19px auto 0;
+    background: #e7e9ed url(../images/xiaomi70.png) no-repeat center;
+    background-size: 100% 100%;
+}
+/* bodyphoneshell*/
+.body .bodyphoneshell{
+    height:495px;
+    width:920px;
+    margin:28px auto 0;
+    overflow: hidden;
+}
+.body .bodyphoneshell div:nth-of-type(1){
+    width:100%;
+    height:18px;
+    font-size:16px;
+    color:#333;
+}
+.body .bodyphoneshell div:nth-of-type(1) span{
+    float: left;
+    height:18px;
+}
+.body .bodyphoneshell div:nth-of-type(1) p{
+    float: right;
+    width:96px;
+    height:100%;
+    color:#424242;
+    font-size:11px;
+    line-height:20px;
+}
+.body .bodyphoneshell div:nth-of-type(1) p a{
+    display: block;
+    float: left;
+}
+.body .bodyphoneshell div:nth-of-type(1) p a:first-child{
+    border-bottom:2px solid #ff6700;
+}
+.body .bodyphoneshell div:nth-of-type(1) p a:last-child{
+    float: right;
+}
+.body .bodyphoneshell aside:nth-of-type(1){
+    height:462px;
+    width:176px;
+    background:#f5f5f5;
+    background-size:100% 100%;
+    float: left;
+    margin:0;
+    margin-top:14px;
+}
+.body .bodyphoneshell aside:nth-of-type(1) img{
+    height:225px;
+    width:176px;
+}
+.body .bodyphoneshell aside:nth-of-type(1) img:nth-of-type(1){
+    margin-bottom: 10px;
+}
+.body .bodyphoneshell aside:nth-of-type(2){
+    height:462px;
+    width:734px;
+    margin:14px 0 0 10px;
+    float: left;
+}
+.body .bodyphoneshell aside:nth-of-type(2) dl{
+    width:176px;
+    height:225px;
+    float: left;
+    background:#fff;
+    margin-right:10px;
+    margin-bottom:10px;
+    overflow: hidden;
+}
+.body .bodyphoneshell aside:nth-of-type(2) dl:nth-of-type(4){
+    margin-right:0;
+}
+.body .bodyphoneshell aside:nth-of-type(2) dl:nth-of-type(5){
+    margin-bottom:0;
+}
+.body .bodyphoneshell aside:nth-of-type(2) dl:nth-of-type(6){
+    margin-bottom:0;
+}
+.body .bodyphoneshell aside:nth-of-type(2) dl:nth-of-type(7){
+    margin-bottom:0;
+}
+.body .bodyphoneshell aside:nth-of-type(2) dl:nth-of-type(8){
+    margin-bottom:0;
+    margin-right:0;
+}
+.body .bodyphoneshell aside:nth-of-type(2) dl a dt{
+    height:142px;
+    width:100%;
+    text-align: center;
+    line-height: 142px;
+}
+.body .bodyphoneshell aside:nth-of-type(2) dl a dt img{
+    width:120px;
+    height:120px;
+}
+.body .bodyphoneshell aside:nth-of-type(2) dl a dd:nth-of-type(1){
+    font-size:11px;
+    color:#333;
+    font-weight:520;
+    text-align: center;
+}
+.body .bodyphoneshell aside:nth-of-type(2) dl a dd:nth-of-type(2){
+    font-size:11px;
+    color:#b0b0b0;
+    font-weight:520;
+    text-align: center;
+    margin-top:8px;
+}
+.body .bodyphoneshell aside:nth-of-type(2) dl a dd:nth-of-type(3){
+    font-size:11px;
+    color:#b0b0b0;
+    text-align: center;
+    margin-top:10px;
+}
+.body .bodyphoneshell aside:nth-of-type(2) dl a dd:nth-of-type(3) span:nth-of-type(1){
+    color:#ff6700;
+    text-decoration:none;
+}
+.body .bodyphoneshell aside:nth-of-type(2) dl a dd:nth-of-type(3) span:nth-of-type(2){
+    text-decoration:line-through;
+}
+.body .bodyphoneshell aside:nth-of-type(2) .Airr{
+    width:176px;
+    height:225px;
+    float: left;
+    background:#f5f5f5;
+    overflow: hidden;
+}
+.body .bodyphoneshell aside:nth-of-type(2) .Airr aside{
+    height:107px;
+    width:100%;
+    background:#fff;
+    margin:0;
+}
+.body .bodyphoneshell aside:nth-of-type(2) .Airr aside:first-child{
+    margin-bottom: 10px;
+}
+.body .bodyphoneshell aside:nth-of-type(2) .Airr aside:first-child div{
+    float: left;
+    width:80px;
+    height:77px;
+    padding-top:30px;
+}
+.body .bodyphoneshell aside:nth-of-type(2) .Airr aside:first-child img{
+    float:right;
+    width:60px;
+    height:50px;
+    margin-top:30px;
+    margin-right:15px;
+}
+.body .bodyphoneshell aside:nth-of-type(2) .Airr aside:first-child div p{
+    height:11px;
+    width:60px;
+    font-size: 11px;
+    color:#333;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.body .bodyphoneshell aside:nth-of-type(2) .Airr aside:first-child div p:last-child{
+    color:#ff6700;
+    margin-top:15px;
+}
+.body .bodyphoneshell aside:nth-of-type(2) .Airr aside:last-child div{
+    float: left;
+    width:80px;
+    height:77px;
+    padding-top:30px;
+}
+.body .bodyphoneshell aside:nth-of-type(2) .Airr aside:last-child img{
+    float:right;
+    width:38px;
+    height:38px;
+    margin-top:30px;
+    margin-right:25px;
+}
+.body .bodyphoneshell aside:nth-of-type(2) .Airr aside:last-child div p{
+    height:11px;
+    width:52px;
+    font-size: 11px;
+    color:#333;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.body .bodyphoneshell aside:nth-of-type(2) .Airr aside:last-child div p:last-child{
+    color:#757575;
+}
+/* bodyasideheader */
+.bodyasideheader{
+    width:920px;
+    height:90px;
+    margin:19px auto 0;
+    background: #e7e9ed url(../images/xiaomi71.png) no-repeat center;
+    background-size: 100% 100%;
+}
+/* bodyaside */
+.body .bodyaside{
+    height:495px;
+    width:920px;
+    margin:28px auto 0;
+    overflow: hidden;
+}
+.body .bodyaside div:nth-of-type(1){
+    width:100%;
+    height:18px;
+    font-size:16px;
+    color:#333;
+}
+.body .bodyaside div:nth-of-type(1) span{
+    float: left;
+    height:18px;
+}
+.body .bodyaside div:nth-of-type(1) p{
+    float: right;
+    width:96px;
+    height:100%;
+    color:#424242;
+    font-size:11px;
+    line-height:20px;
+}
+.body .bodyaside div:nth-of-type(1) p a{
+    display: block;
+    float: left;
+}
+.body .bodyaside div:nth-of-type(1) p a:first-child{
+    border-bottom:2px solid #ff6700;
+}
+.body .bodyaside div:nth-of-type(1) p a:last-child{
+    float: right;
+}
+.body .bodyaside aside:nth-of-type(1){
+    height:462px;
+    width:176px;
+    background:#f5f5f5;
+    background-size:100% 100%;
+    float: left;
+    margin:0;
+    margin-top:14px;
+}
+.body .bodyaside aside:nth-of-type(1) img{
+    height:225px;
+    width:176px;
+}
+.body .bodyaside aside:nth-of-type(1) img:nth-of-type(1){
+    margin-bottom: 10px;
+}
+.body .bodyaside aside:nth-of-type(2){
+    height:462px;
+    width:734px;
+    margin:14px 0 0 10px;
+    float: left;
+}
+.body .bodyaside aside:nth-of-type(2) dl{
+    width:176px;
+    height:225px;
+    float: left;
+    background:#fff;
+    margin-right:10px;
+    margin-bottom:10px;
+    overflow: hidden;
+}
+.body .bodyaside aside:nth-of-type(2) dl:nth-of-type(4){
+    margin-right:0;
+}
+.body .bodyaside aside:nth-of-type(2) dl:nth-of-type(5){
+    margin-bottom:0;
+}
+.body .bodyaside aside:nth-of-type(2) dl:nth-of-type(6){
+    margin-bottom:0;
+}
+.body .bodyaside aside:nth-of-type(2) dl:nth-of-type(7){
+    margin-bottom:0;
+}
+.body .bodyaside aside:nth-of-type(2) dl:nth-of-type(8){
+    margin-bottom:0;
+    margin-right:0;
+}
+.body .bodyaside aside:nth-of-type(2) dl a dt{
+    height:142px;
+    width:100%;
+    text-align: center;
+    line-height: 142px;
+}
+.body .bodyaside aside:nth-of-type(2) dl a dt img{
+    width:120px;
+    height:120px;
+}
+.body .bodyaside aside:nth-of-type(2) dl a dd:nth-of-type(1){
+    font-size:11px;
+    color:#333;
+    font-weight:520;
+    text-align: center;
+}
+.body .bodyaside aside:nth-of-type(2) dl a dd:nth-of-type(2){
+    font-size:11px;
+    color:#b0b0b0;
+    font-weight:520;
+    text-align: center;
+    margin-top:8px;
+}
+.body .bodyaside aside:nth-of-type(2) dl a dd:nth-of-type(3){
+    font-size:11px;
+    color:#b0b0b0;
+    text-align: center;
+    margin-top:10px;
+}
+.body .bodyaside aside:nth-of-type(2) dl a dd:nth-of-type(3) span:nth-of-type(1){
+    color:#ff6700;
+    text-decoration:none;
+}
+.body .bodyaside aside:nth-of-type(2) dl a dd:nth-of-type(3) span:nth-of-type(2){
+    text-decoration:line-through;
+}
+.body .bodyaside aside:nth-of-type(2) .Airr{
+    width:176px;
+    height:225px;
+    float: left;
+    background:#f5f5f5;
+    overflow: hidden;
+}
+.body .bodyaside aside:nth-of-type(2) .Airr aside{
+    height:107px;
+    width:100%;
+    background:#fff;
+    margin:0;
+}
+.body .bodyaside aside:nth-of-type(2) .Airr aside:first-child{
+    margin-bottom: 10px;
+}
+.body .bodyaside aside:nth-of-type(2) .Airr aside:first-child div{
+    float: left;
+    width:80px;
+    height:77px;
+    padding-top:30px;
+}
+.body .bodyaside aside:nth-of-type(2) .Airr aside:first-child img{
+    float:right;
+    width:60px;
+    height:50px;
+    margin-top:30px;
+    margin-right:15px;
+}
+.body .bodyaside aside:nth-of-type(2) .Airr aside:first-child div p{
+    height:11px;
+    width:65px;
+    font-size: 11px;
+    color:#333;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.body .bodyaside aside:nth-of-type(2) .Airr aside:first-child div p:last-child{
+    color:#ff6700;
+    margin-top:25px;
+}
+.body .bodyaside aside:nth-of-type(2) .Airr aside:last-child div{
+    float: left;
+    width:80px;
+    height:77px;
+    padding-top:30px;
+}
+.body .bodyaside aside:nth-of-type(2) .Airr aside:last-child img{
+    float:right;
+    width:38px;
+    height:38px;
+    margin-top:30px;
+    margin-right:25px;
+}
+.body .bodyaside aside:nth-of-type(2) .Airr aside:last-child div p{
+    height:11px;
+    width:52px;
+    font-size: 11px;
+    color:#333;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.body .bodyaside aside:nth-of-type(2) .Airr aside:last-child div p:last-child{
+    color:#757575;
+}
+/* bodyvideoheader */
+.bodyvideoheader{
+    width:920px;
+    height:90px;
+    margin:19px auto 0;
+    background: #e7e9ed url(../images/xiaomi82.png) no-repeat center;
+    background-size: 100% 100%;
+}
+/* bodyvideo */
+.body .bodyvideo{
+    height:245px;
+    width:920px;
+    margin:28px auto 0;
+    overflow: hidden;
+}
+.body .bodyvideo p:nth-of-type(1){
+    width:100%;
+    height:18px;
+    font-size:16px;
+    color:#333;
+}
+.body .bodyvideo p:nth-of-type(1) span{
+    float: left;
+    height:18px;
+}
+.body .bodyvideo p:nth-of-type(1) a{
+    float: right;
+    width:72px;
+    height:100%;
+    color:#424242;
+    font-size:11px;
+    line-height:20px;
+    background: url(../images/xiaomi16.png) no-repeat right center;
+}
+.body .bodyvideo aside:nth-of-type(1){
+    height:215px;
+    margin-top:12px;
+    width:100%;
+}
+.body .bodyvideo aside:nth-of-type(1) article{
+    height:100%;
+    width:222px;
+    background:#fff;
+    float: left;
+    margin-right:10px;
+}
+.body .bodyvideo aside:nth-of-type(1) article:nth-of-type(4){
+    margin-right:0;
+}
+.body .bodyvideo aside:nth-of-type(1) article img{
+    height:135px;
+    width:100%;
+}
+.body .bodyvideo aside:nth-of-type(1) article p:nth-of-type(1){
+    font-size:14px;
+    color:#333;
+    text-align: center;
+    margin-top:22px;
+}
+.body .bodyvideo aside:nth-of-type(1) article p:nth-of-type(2){
+    font-size:12px;
+    color:#b0b0b0;
+    text-align: center;
+    margin-top:10px;
+}
+/* footer */
+.footerlb{
+    height:204px;
+    background:#fff;
+}
+.footerlb .footer{
+    height:100%;
+    width:920px;
+    margin:0 auto;
+}
+.footerlb .footer aside:nth-of-type(1){
+    height:60px;
+    width:100%;
+    border-bottom:1px solid #e0e0e0;
+}
+.footerlb .footer aside:nth-of-type(1) ul li{
+    height:60px;
+    line-height: 60px;
+    float:left;
+}
+.footerlb .footer aside:nth-of-type(1) ul li a{
+    padding:0 39px;
+    color:#616161;
+    font-size:16px;
+    border-right:1px solid #e0e0e0;
+}
+.footerlb .footer aside:nth-of-type(1) ul li:nth-of-type(5) a{
+    border-right:none;
+}
+.footerlb .footer aside:nth-of-type(2){
+    height:144px;
+    width:100%;
+}
+.footerlb .footer aside:nth-of-type(2) div:nth-of-type(1){
+    height:100%;
+    width:730px;
+    float:left;
+}
+.footerlb .footer aside:nth-of-type(2) div:nth-of-type(2){
+    width:188px;
+    height:84px;
+    float:left;
+    border-left:1px solid #e0e0e0;
+    margin-top:30px;
+    overflow: hidden;
+}
+.footerlb .footer aside:nth-of-type(2) div:nth-of-type(1) ul{
+    float:left;
+    margin-top:30px;
+    font-size:11px;
+    overflow: hidden;
+}
+.footerlb .footer aside:nth-of-type(2) div:nth-of-type(1) ul li:nth-of-type(2){
+    margin-top:23px;
+}
+.footerlb .footer aside:nth-of-type(2) div:nth-of-type(1) ul li{
+    margin-top:15px;
+    color:#424242;
+    font-weight:515;
+}
+.footerlb .footer aside:nth-of-type(2) div:nth-of-type(1) ul li:nth-of-type(1){
+    margin-top:0px;
+}
+.footerlb .footer aside:nth-of-type(2) div:nth-of-type(1) ul:nth-of-type(2){
+    margin-left:68px;
+}
+.footerlb .footer aside:nth-of-type(2) div:nth-of-type(1) ul:nth-of-type(3){
+    margin-left:68px;
+}
+.footerlb .footer aside:nth-of-type(2) div:nth-of-type(1) ul:nth-of-type(4){
+    margin-left:58px;
+}
+.footerlb .footer aside:nth-of-type(2) div:nth-of-type(1) ul:nth-of-type(5){
+    margin-left:58px;
+}
+.footerlb .footer aside:nth-of-type(2) div:nth-of-type(1) ul:nth-of-type(6){
+    margin-left:68px;
+}
+.footerlb .footer aside:nth-of-type(2) div:nth-of-type(1) ul li a{
+    color:#757575;
+}
+.footerlb .footer aside:nth-of-type(2) div:nth-of-type(2) p:nth-of-type(1){
+    color:#ff6700;
+    font-size:22px;
+    text-align: center;
+}
+.footerlb .footer aside:nth-of-type(2) div:nth-of-type(2) p:nth-of-type(2){
+    font-size:12px;
+    color:#616161;
+    text-align: center;
+    margin-top:10px;
+}
+.footerlb .footer aside:nth-of-type(2) div:nth-of-type(2) p:nth-of-type(3){
+    font-size:12px;
+    color:#616161;
+    text-align: center;
+    margin-top:5px;
+}
+.footerlb .footer aside:nth-of-type(2) .service{
+    display: block;
+    height:23px;
+    width:90px;
+    border:1px solid #ff6700;
+    color:#ff6700;
+    line-height:23px;
+    text-align: center;
+    float: left;
+    margin:-5px 0 0 49px;
+}
+/* blogroll */
+.blogrollwhite{
+    height:184px;
+    background:#fafafa;
+}
+.blogrollwhite .blogroll{
+    height:100%;
+    width:920px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.blogrollwhite .blogroll article:nth-of-type(1){
+    height:104px;
+    width:100%;
+    margin-top:22px;
+}
+.blogrollwhite .blogroll article:nth-of-type(1) .mi{
+    width:43px;
+    height:43px;
+    float: left;
+    background:url(../images/xiaomi88.png) no-repeat center;
+}
+.blogrollwhite .blogroll article:nth-of-type(1) div:nth-of-type(2){
+    width:865px;
+    float:left;
+    height:100%;
+    margin-left:8px;
+}
+.blogrollwhite .blogroll article:nth-of-type(1) div:nth-of-type(2) .mylink{
+    width:100%;
+    height:14px;
+}
+.blogrollwhite .blogroll article:nth-of-type(1) div:nth-of-type(2) .mylink li{
+    float:left;
+    height:14px;
+    line-height: 14px;
+    font-size:12px;
+}
+.blogrollwhite .blogroll article:nth-of-type(1) div:nth-of-type(2) .mylink li a{
+    padding:0 1px;
+    color:#757575;
+    border-right:1px solid #c0b0c0;
+    font-weight:550;
+}
+.blogrollwhite .blogroll article:nth-of-type(1) div:nth-of-type(2) .mylink li:last-of-type a{
+    border-right: none;
+}
+.blogrollwhite .blogroll article:nth-of-type(1) div:nth-of-type(2) .prove{
+    font-size:12px;
+    color:#b0b0b0;
+    float: none;
+    margin-top:5px;
+}
+.blogrollwhite .blogroll article:nth-of-type(1) div:nth-of-type(2) .prove a{
+    color:#b0b0b0;
+}
+.blogrollwhite .blogroll article:nth-of-type(1) div:nth-of-type(2) .prove a:hover{
+    color:#ff6700;
+}
+.blogrollwhite .blogroll article:nth-of-type(1) div:nth-of-type(2) .icon{
+    width:100%;
+    padding:3px 0 0;
+}
+.blogrollwhite .blogroll article:nth-of-type(1) div:nth-of-type(2) .icon img{
+    height:28px;
+}
+.blogrollwhite .blogroll article:nth-of-type(2){
+    width:100%;
+    height:80px;
+    background:url(../images/xiaomi87.png) no-repeat center 30px;
+}
